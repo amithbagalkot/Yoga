@@ -1,0 +1,27 @@
+.section-about {
+    background-color: $color_grey-light-1;
+    padding: 20rem 0;
+    height: 130vh;
+    margin-top: -20vh;
+}
+.section-features {
+    height: 110vh;
+    margin-top: -25vh;
+    padding: 20rem 0;
+    background-image:linear-gradient(to right bottom,
+    rgba($color-primary-light, 0.801),
+     rgba($color-primary-dark, 0.808)),
+     url(../img/yogabc.png);
+     background-size: cover;
+     clip-path: polygon(0 25vh ,100% 0 ,100% 100%, 0 100%);
+
+     &> * { // > means direct child of section_features // direct child only select first child that comes
+
+     }
+}
+
+.section_tours {
+    height: 110vh;
+    background-color: $color_grey-light-1;
+    padding: 20rem 0;
+}

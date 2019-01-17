@@ -1,0 +1,53 @@
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateY(-3rem);
+    }
+
+    80%{
+        transform: translateY(1rem)
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    80%{
+        transform: translateY(1rem)
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(5rem);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes moveInOut {
+    0% {
+        opacity: 1;
+        transform: scale(1.5);
+        
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1.8);
+        border-radius: 2px solid $color-primary;
+    }
+}
